@@ -5,97 +5,129 @@
   --tile-color: #000;
 }
 .logo {
+  line-height: 1, 2;
   color: var(--tile-color);
   font-weight: 700;
   font-size: 26px;
 }
 .web-logo {
+  line-height: 1, 2;
   color: var(--background-hover-color);
   font-weight: 700;
   font-size: 26px;
 }
 .nav {
+  line-height: 1, 1;
   color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
 }
-.nav:hover :focus :active {
+.nav:hover {
+  color: var(--background-hover-color);
+}
+.nav:focus :active {
   background-color: var(--background-hover-color);
 }
 .mail {
+  line-height: 1, 1;
   color: var(--description-color);
   font-weight: 500;
   font-size: 14px;
 }
-.mail:hover :focus :active {
-  background-color: var(--background-hover-color);
+.mail:hover {
+  color: var(--background-hover-color);
+}
+.mail:focus :active {
+  color: var(--background-hover-color);
 }
 .phone-number {
+  line-height: 1, 1;
   color: var(--description-color);
   font-weight: 500;
   font-size: 14px;
 }
-.phone-number:hover :focus :active {
-  background-color: var(--background-hover-color);
+.phone-number:hover {
+  color: var(--background-hover-color);
+}
+.phone-number:focus :active {
+  color: var(--background-hover-color);
 }
 .button-page-type {
+  line-height: 1, 6;
   font-weight: 500;
   font-size: 16px;
 }
-.button-page-type:hover :focus :active {
+.button-page-type:hover {
+  background-color: var(--background-hover-color);
+}
+.button-page-type :focus :active {
   background-color: var(--background-hover-color);
 }
 .name-project {
+  line-height: 2;
   font-weight: 700;
   font-size: 18px;
   color: var(--title-color);
 }
 .project-type {
+  line-height: 1.9;
   font-size: 16px;
   color: var(--description-color);
 }
 .adress-company {
+  line-height: 1, 7;
   font-size: 14px;
   color: var(--title-color);
 }
 
 .title {
+  line-height: 1, 3;
   font-weight: 700;
   font-size: 36px;
   color: var(--title-color);
 }
 .button-order-service {
+  line-height: 1, 8;
   font-weight: 700;
   font-size: 16px;
 }
-.button-order-service:hover :focus :active {
+.button-order-service:hover {
+  background-color: var(--background-hover-color);
+}
+.button-order-service:focus :active {
   background-color: var(--background-hover-color);
 }
 .title-description {
+  line-height: 1, 14;
   color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
 }
 .description {
+  line-height: 1, 7;
   color: var(--description-color);
   font-size: 14px;
 }
 .title-our-job {
+  line-height: 1, 16;
   color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
 }
 .title-team {
+  line-height: 1, 16;
   color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
 }
 .name-workers {
+  line-height: 1, 18;
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
 }
 .position-job {
+  line-height: 1, 18;
   color: var(--description-color);
   font-size: 16px;
 }
