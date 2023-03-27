@@ -7,11 +7,9 @@
   --background-beautification: #2f303a;
   --email-phone-footer: #ffffff99;
 }
-.style {
-  font-family: "Roboto", sans-serif;
-}
 
 .logo {
+  text-decoration: none;
   line-height: 1.2;
   color: var(--tile-color);
   font-weight: 700;
@@ -79,7 +77,6 @@
 
 .name-project {
   line-height: 2;
-  font-weight: 700;
   font-size: 18px;
   color: var(--title-color);
 }
@@ -95,7 +92,7 @@
 }
 .title {
   line-height: 1.3;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 44px;
   color: var(--text-button);
 }
@@ -119,7 +116,6 @@
 .title-description {
   line-height: 1.14;
   color: var(--title-color);
-  font-weight: 700;
   font-size: 14px;
 }
 .description {
@@ -130,13 +126,11 @@
 .title-our-job {
   line-height: 1.16;
   color: var(--title-color);
-  font-weight: 700;
   font-size: 36px;
 }
 .title-team {
   line-height: 1.16;
   color: var(--title-color);
-  font-weight: 700;
   font-size: 36px;
 }
 .name-workers {
@@ -150,17 +144,41 @@
   color: var(--description-color);
   font-size: 16px;
 }
-.body {
+body {
+  font-family: "Roboto", sans-serif;
   color: var(--text-button);
 }
 .background-beautification {
   background-color: var(--background-beautification);
 }
 .mail-footer {
+  font-size: 14px;
+  line-height: 1.7;
   cursor: pointer;
   color: var(--email-phone-footer);
 }
-.phone-footer {
+.phone-number-footer {
+  font-size: 14px;
+  line-height: 1.7;
   cursor: pointer;
   color: var(--email-phone-footer);
+}
+.mail-footer:hover {
+  color: var(--background-hover-color);
+}
+.mail-footer:focus {
+  color: var(--background-hover-color);
+}
+.phone-number-footer:hover {
+  color: var(--background-hover-color);
+}
+.phone-number-footer:focus {
+  color: var(--background-hover-color);
+}
+.logo-footer {
+  text-decoration: none;
+  color: var(--text-button);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
